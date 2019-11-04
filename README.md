@@ -13,5 +13,7 @@ Next, **Domain search** will be performed using Reverse Position-Specific BLAST
 
 ## Graphic description
 
-![alt text](https://github.com/NCBI-Codeathons/Domain_HMM_Boundaries/blob/master/workflow_codeathon.pdf "Workflow")
+![PDF file](https://github.com/NCBI-Codeathons/Domain_HMM_Boundaries/blob/master/workflow_codeathon.pdf "Workflow")
+
+![alt text](https://github.com/NCBI-Codeathons/Domain_HMM_Boundaries/blob/master/workflow_codeathon.jpeg "Workflow")
 
