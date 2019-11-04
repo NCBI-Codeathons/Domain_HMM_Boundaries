@@ -9,7 +9,7 @@
 
    assigned to: Ward
 
-   *`rpstblastn` already installed on `instance-1`: `/opt/ncbi-blast-2.9.0+/bin/rpstblastn`
+   *`rpstblastn` already installed on `instance-1`: `/opt/ncbi-blast-2.9.0+/bin/rpstblastn`*
 
    *2953 assembled contigs in `/home/ward.deboutte/assembled`*
 
