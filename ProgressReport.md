@@ -1,12 +1,15 @@
 # Progress report for domain searching group
 
-<span style="color:blue">*Progress 11/4/19*</span>
+*Progress 11/4/19*
+
+-- Useful for shared files: Cloud Storage buckets --
+   [https://cloud.google.com/storage/docs/creating-buckets](https://cloud.google.com/storage/docs/creating-buckets)
 
 0. Put everything on the cloud instance.
 
    assigned to: Ward
 
-   <span style="color:blue">2953 assembled contigs in `/home/ward.deboutte/assembled`</span>
+   *2953 assembled contigs in `/home/ward.deboutte/assembled`*
 
 -- Useful for the parallel tasks: GNU `parallel` --
 
@@ -22,6 +25,8 @@
 
    assigned to: Eric
 
+   *broken up into a set of 80 different files*
+
 3. Convert protein domain database -> RPS-blast database
 
    (not necessary? Is this a one-liner? Document the tool!)
@@ -34,6 +39,8 @@
 
       assigned to: Migun
 
+      *currently running...*
+
 * 4b. Using 6-frame translated reads as queries
       
       assigned to: Migun
@@ -41,6 +48,8 @@
 5. Parse output to generate a gff for Group 2.
 
    assigned to: Tom, Eric, Eneida, ...
+
+   *installed cnv_blast2gff on main repo*
 
 * 5b. (moved from 4c) Compare results from protein and DNA queries
 
