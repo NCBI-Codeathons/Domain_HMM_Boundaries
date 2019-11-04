@@ -7,9 +7,9 @@ This pipeline takes as inputs **Query sequences** from Codeathon1 (translated OR
 Next, **Domain search** will be performed using Reverse Position-Specific BLAST
 (RPS-BLAST) or HMMER. As **Output**, a tab-delimited file will be generated containing the following information:
 
-⋅⋅* Known domain IDs
-⋅⋅* Contig locations
-⋅⋅* Scores
+* Known domain IDs
+* Contig locations
+* Scores
 
 ## Graphic description
 
