@@ -1,4 +1,4 @@
-# Searching protein domains in metagenomics data
+# Searching protein domains in metagenomic data
 
 ## Rationale
 
