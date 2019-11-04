@@ -34,8 +34,10 @@
       
       assigned to: Migun
 
-* 4c. Compare results from protein and DNA queries
-
 5. Parse output to generate a gff for Group 2.
 
-   assigned to: Tom, Eric, ...
+   assigned to: Tom, Eric, Eneida, ...
+
+* 5b. (moved from 4c) Compare results from protein and DNA queries
+
+      assigned to: Anderson (working with Eneida)
