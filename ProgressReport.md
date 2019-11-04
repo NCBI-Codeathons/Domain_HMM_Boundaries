@@ -1,6 +1,6 @@
 # Progress report for domain searching group
 
-<span style="color:blue">Progress 11/4/19</span>
+<span style="color:blue">*Progress 11/4/19*</span>
 
 0. Put everything on the cloud instance.
 
