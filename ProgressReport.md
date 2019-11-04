@@ -44,7 +44,7 @@
 
   assigned to: Migun
 
-  *currently running...*
+  *currently 1 of 2953 queries finished, and 65 running...*
 
 * 4b. Using 6-frame translated reads as queries
       
