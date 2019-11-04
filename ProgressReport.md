@@ -30,7 +30,7 @@
    *broken up into a set of 81 different files using the following:
     https://github.com/NCBI-Hackathons/VirusDiscoveryProject/blob/master/DomainLabeling/RPSTBLN/generate_splitCDD.sh*
 
-   *databases are in `/home/ward.deboutte/DB/profs`
+   *databases are in `/home/ward.deboutte/DB/profs`*
 
 3. Convert protein domain database -> RPS-blast database
 
