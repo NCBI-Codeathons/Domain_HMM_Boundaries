@@ -4,11 +4,13 @@
 
    assigned to: Ward
 
+-- Useful for the parallel tasks: GNU `parallel` --
+
 1. Split up the reads/contigs/predicted proteins to parallelize.
 
    (this may not be necessary)
 
-   assigned to: Eric
+   assigned to: Eric, David, Wynn, Eneida
 
 2. Split up the protein domain database (e.g., CDD) to parallelize.
 
@@ -35,3 +37,5 @@
 * 4c. Compare results from protein and DNA queries
 
 5. Parse output to generate a gff for Group 2.
+
+   assigned to: Tom, Eric, ...
