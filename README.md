@@ -11,7 +11,7 @@ Next, **Domain search** will be performed using Reverse Position-Specific BLAST
 * Contig locations
 * Scores
 
-## Graphic description
+## Schematic description
 
 ![PDF file](https://github.com/NCBI-Codeathons/Domain_HMM_Boundaries/blob/master/workflow_codeathon.pdf "Workflow")
 
