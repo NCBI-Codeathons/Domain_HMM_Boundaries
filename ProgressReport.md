@@ -9,13 +9,15 @@
 
    assigned to: Ward
 
+   *`rpstblastn` already installed on `instance-1`: `/opt/ncbi-blast-2.9.0+/bin/rpstblastn`
+
    *2953 assembled contigs in `/home/ward.deboutte/assembled`*
 
 -- Useful for the parallel tasks: GNU `parallel` --
 
 1. Split up the reads/contigs/predicted proteins to parallelize.
 
-   (this may not be necessary)
+   (this may not be necessary for now... required for a larger search)
 
    assigned to: Eric, David, Wynn, Eneida
 
@@ -25,7 +27,9 @@
 
    assigned to: Eric
 
-   *broken up into a set of 80 different files*
+   *broken up into a set of 81 different files*
+
+   *databases are in `/home/ward.deboutte/DB/profs`
 
 3. Convert protein domain database -> RPS-blast database
 
@@ -35,15 +39,15 @@
 
 * 4a. Using protein queries
 
-      **Where are these from v1?**
+  **Where are these from v1?**
 
-      assigned to: Migun
+  assigned to: Migun
 
-      *currently running...*
+  *currently running...*
 
 * 4b. Using 6-frame translated reads as queries
       
-      assigned to: Migun
+  assigned to: Migun
 
 5. Parse output to generate a gff for Group 2.
 
@@ -53,4 +57,4 @@
 
 * 5b. (moved from 4c) Compare results from protein and DNA queries
 
-      assigned to: Anderson (working with Eneida)
+  assigned to: Anderson (working with Eneida)
