@@ -1,9 +1,33 @@
 # Progress report for domain searching group
 
+**Day 2**
+**Progress 11/5/19**
+
+1. converting 950 completed runs to appropriate format for group 1 and index group (Migun, Eneida, Wynn, David)
+
+**Completed? What was sent?**
+
+2. basic analysis on output from initial pipeline (e.g., domains per contig, clusters of domain content) (Migun)
+
+**Migun has generated some scripts to run basic analysis and deposited in the `post_analysis` directory on the repo.**
+ 
+**Also in this directory is a Jupyter notebook, which allows a user to visualize some of the outputs.**
+
+3. completing run on 3000 proteins from v1 using current pipeline (Ward)
+
+4. creating a scalable solution to do a larger dataset for proteins (Tom and Ward)
+
+5. creating a scalable solution to do a large dataset of raw data (non-assembled reads/contigs) using kmers (Anderson, Migun, David)
+
+   -Migun has tried RPS-BLAST on contigs, and it takes too long to run.
+
+
+**Day 1**
 *Progress 11/4/19*
 
 -- Useful for shared files: Cloud Storage buckets --
    [https://cloud.google.com/storage/docs/creating-buckets](https://cloud.google.com/storage/docs/creating-buckets)
+
 
 0. Put everything on the cloud instance.
 
