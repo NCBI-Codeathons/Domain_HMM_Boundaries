@@ -23,11 +23,21 @@
 
 3. completing run on 3000 proteins from v1 using current pipeline (Ward)
 
-4. creating a scalable solution to do a larger dataset for proteins (Tom and Ward)
+**Should be done.... Where is output?**
+
+**Check on protein-domains-05**
+
+4. creating a scalable solution to do a larger dataset using a similar pipeline, e.g., the 154k assembled contigs rather than the 3k sample set (Tom and Ward)
+
+**We have investigated HMMER, which does not seem to be any faster.**
+
+**Mash's implementation is fast, but does not find any hits.**
 
 5. creating a scalable solution to do a large dataset of raw data (non-assembled reads/contigs) using kmers (Anderson, Migun, David)
 
-   -Migun has tried RPS-BLAST on contigs, and it takes too long to run.
+**Migun has tried RPS-BLAST on contigs, and it takes too long to run, so running with raw reads is likely also slow.**
+
+**Have we also worked with raw reads in Mash? What is the latest?**
 
 
 **Day 1**
