@@ -2,7 +2,7 @@
 
 **Day 2**
 
-1. converting 700 completed runs to appropriate format for group 1 and index group (Eneida, Ward, Wynn, David)
+1. converting 950 completed runs to appropriate format for group 1 and index group (Eneida, Ward, Wynn, David)
 
 2. basic analysis on output from initial pipeline (e.g., domains per contig, clusters of domain content) (Migun)
 
