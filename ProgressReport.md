@@ -5,7 +5,15 @@
 
 1. converting 950 completed runs to appropriate format for group 1 and index group (Migun, Eneida, Wynn, David)
 
-**Completed? What was sent?**
+**Completed!**
+
+**We sent the following to the Indexing team: gs://virus-hunting-2-codeathon-viasq-team/Domain_HMM_Boundaries/cdd_data_forindex.tsv**
+
+**This was generated using the following code:**
+
+**`https://github.com/NCBI-Codeathons/Domain_HMM_Boundaries/blob/master/post_analysis/scripts/add_samp_column.py`**
+
+**We may have sent something slightly different to the Taxonomy team**
 
 2. basic analysis on output from initial pipeline (e.g., domains per contig, clusters of domain content) (Migun)
 
