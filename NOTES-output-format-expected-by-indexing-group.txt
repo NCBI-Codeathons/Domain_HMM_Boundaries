@@ -1,0 +1,18 @@
+Indexing group requested the following output format:
+
+1 tab-delimited line per hit, with the following 6 fields:
+<sraid> <seqid> <domainid> <seqstart> <seqstop> <score>
+
+<sraid>: name of SRA assembly/dataset
+<seqid>: sequence name
+<domainid>: CDD/profile name
+<seqstart>: start nucleotide position in <seqid> of hit
+<seqstop>:  stop nucleotide position in <seqid> of hit
+<score>: 'score' of hit 
+
+<seqstart> < <seqstop> implies hit is on positive/forward strand
+<seqstart> > <seqstop> implies hit is on negative/reverse strand
+
+If <seqstart> == <seqstop> then strand is unknown but in practice this
+should never happen given a reasonable score threshold
+
