@@ -1,0 +1,11 @@
+Notes from presentation Day 2
+
+Basically all of the short read sets have been assembled now, but ~50% of reads were not assembled, and aligned with very conservative algorithm (Skesa)
+
+We will scan with viral subset of CDD on short read data
+
+Since the output after scanning contigs with CDDs includes the read ID, we can use the contig nucleotide sequence to “classify” to levels below family/subfamily
+
+Ben’s suggestion: Split the raw read data; scan with HMMs; use results as training data for MinHash and extract kmers that are indicative of virus/viral tax group; use thos kmers to scan the other set of raw data
+
+Mike? suggested: Use the 86k contigs, sort by contigs with highest coverage to identify the read sets with highest potential, then look for CDDs in them
