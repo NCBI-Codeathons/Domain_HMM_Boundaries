@@ -1,8 +1,9 @@
-step1: rpstbln of 3000 assembled datasets against 2000 selected viral CDD domains
-step2: get statistical information on output of rpstbln
-step3: grab protein fasta's corresponding to viral CDD domains used in step 1
-step4: mash sketch these fastas
-step5: mash sketch assembled contigs
-step6: calculate mash dist between ref and query
-step7: compare outputs of rpstbln and mash outputs
+step1: rpstbln of 3000 assembled datasets against 2000 selected viral CDD domains - under scripts: rpstbln.sh combined with scripts/virus_models.txt
+step2a: get statistical information on output of rpstbln: post_analysis/jupyter_notebook 
+step2b: scripts convert output from rpstbln into workable dataformat for taxonomy domain team: post_analysis/scripts/add_samp_column.py 
+step3: grab protein fasta's corresponding to viral CDD domains used in step 1 - download URL in scripts/mash_sketch.sh
+step4: mash sketch these fastas -scripts/mash_sketch.sh
+step5: mash sketch assembled contigs - scripts/mash_sketch.sh
+step6: calculate mash dist between ref and query - scripts/mash_sketch.sh
+step7: compare outputs of rpstbln and mash outputs - 
 
