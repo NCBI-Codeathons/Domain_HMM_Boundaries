@@ -3,16 +3,44 @@
 import pandas as pd
 import glob
 import os
+import argparse
 
 
+def cmdline_parser():
+	"""
+	Create an argparse instance.
+
+	Combination of different options for this script.
+	"""
+
+	parser = argparse.ArgumentParser(
+									 description="""convert rpsbtblastn""",
+									 epilog="""
+		""")
+
+	required_args = parser.add_argument_group('required arguments')
+
+	required_args.add_argument("-d", dest="dir", help="""directory with rpstblastn results,
+	files that ends in .rpstbln""", required=True)
+
+	return parser
 
 def main():
-	x = add_col("tests/data/")
-	x.to_csv("data.tsv", sep="\t")
-	index_team_data("tests/data/")
+	"""
+   	 Main function.
+
+	"""
+	parser = cmdline_parser()
+	args = parser.parse_args()
 
 
-def add_col(folder):
+	tax_team_data(args.dir)
+	index_team_data(args.dir)
+
+
+
+def tax_team_data(folder):
+	"""Generate data for taxa team."""
 	data = []
 	rps=os.path.join(folder, "*.rpstbln")
 	globbed_files = glob.glob(rps)
@@ -23,9 +51,11 @@ def add_col(folder):
 		data.append(frame)
 	final_df = pd.concat(data)
 	final_df = final_df.drop(columns=["pident", "length", "mismatch", "gapopen", "qstart", "qend", "sstart", "send",])
+	final_df.to_csv("cdd_data_fortaxa.tsv", sep="\t")
 	return final_df
 
 def index_team_data(folder):
+	"""Generate data for taxa team."""
 	data = []
 	rps=os.path.join(folder, "*.rpstbln")
 	globbed_files = glob.glob(rps)
