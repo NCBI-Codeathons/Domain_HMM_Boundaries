@@ -4,7 +4,7 @@
 
 ## Rationale
 
-Metagenomic data can be difficult to interpret. Which types of bacteria and viruses are present? Are specific sequences present that might be indicative of pathogenicity? One way to address these questions is to assess the **protein domain content** of a metagenome. Our tools allow users to perform a comprehensive annotation of domains within their metagenomic assembly (using RPS-tBLASTn), allowing follow-up on specific occurrences of domains of interest. Additionally, we provide an alternative version of our pipeline that we began testing (but did not deploy on our full dataset) that uses MASH on translated reads to perform a more quick & rough scan of the domain content of their metagenomic data.
+Metagenomic data can be difficult to interpret. Which types of bacteria and viruses are present? Are specific sequences present that might be indicative of pathogenicity? One way to address these questions is to assess the **protein domain content** of a metagenome. Our tools allow users to perform a comprehensive annotation of domains within their metagenomic assembly (using 6-frame translation RPS-BLAST), allowing follow-up on specific occurrences of domains of interest. Additionally, we provide an alternative version of our pipeline that we began testing (but did not deploy on our full dataset) that uses MASH on translated reads to perform a more quick & rough scan of the domain content of their metagenomic data.
 
 Potential uses of these results include:
 
@@ -24,16 +24,16 @@ This pipeline takes the following as inputs:
 
 and also 
 
-(2) **Domain models**, which represent existing domain models - e.g., from CDD, PFAM, POGs/PVOGs, etc., in PSSM format. (Although we only tried models from CDD.)
+(2) **Domain models**, which represent existing domain models - e.g., from CDD, PFAM, POGs/PVOGs, etc. (although we only tried models from CDD), in PSSM format. 
 
 We provide tools for the user to perform **Domain search** using 6-frame translation of Reverse Position-Specific BLAST
-([`RPS-tBLASTn`](https://www.ncbi.nlm.nih.gov/Structure/cdd/cdd_help.shtml#RPSBWhat)), or a non-optimized implementation of `Mash` (https://mash.readthedocs.io/en/latest/). 
+([`RPS-BLAST`](https://www.ncbi.nlm.nih.gov/Structure/cdd/cdd_help.shtml#RPSBWhat)) (sometimes unofficially referred to as "RPS-tBLASTn"), or a non-optimized implementation of ([`Mash`](https://mash.readthedocs.io/en/latest/)).
 
 \*There are several ways to generate a metagenomic assembly; we built the one for our use case with [SKESA](https://github.com/ncbi/SKESA).
 
 **Output**
 
-If using `RPS-tBLASTn`, a gff file will be generated containing the following information:
+If using `RPS-BLAST`, a gff file will be generated containing the following information:
 
 * Known domain IDs
 * Contig locations
@@ -51,7 +51,7 @@ If using `Mash`, a XXX file will be generated containing the following informati
 
 We used the following data to assess the runtime, scalability, and accuracy of this pipeline:
 
-(1) **Query sequences** are from assembled contigs found in Codeathon1(link). For RPS-tBLASTn, we used the translated ORFs from all 3,000+ datasets, while for MASH, we only used a subset of 700 of them.
+(1) **Query sequences** are from assembled contigs found in Codeathon1(link). For RPS-BLAST, we used the translated ORFs from all 3,000+ datasets, while for MASH, we only used a subset of 700 of them.
 
 (2) **Domain models** are from CDD.
 
