@@ -14,9 +14,9 @@ Potential uses of these results include:
 
 ## Schematic description
 
-![Workflow](https://github.com/NCBI-Codeathons/Domain_HMM_Boundaries/blob/master/workflow_codeathon.png)
+[Workflow](https://github.com/NCBI-Codeathons/Domain_HMM_Boundaries/blob/master/workflow_codeathon.png)
 
-![Download PDF file](https://github.com/NCBI-Codeathons/Domain_HMM_Boundaries/blob/master/workflow_codeathon.pdf "Workflow")
+[Download PDF file](https://github.com/NCBI-Codeathons/Domain_HMM_Boundaries/blob/master/workflow_codeathon.pdf "Workflow")
 
 # How to use this pipeline
 
@@ -29,9 +29,9 @@ and also
 (2) **Domain models**, which represent existing domain models from CDD, PFAM, POGs/PVOGs, etc., in PSSM (?) format.
 
 We provide tools for the user to perform **Domain search** using Reverse Position-Specific BLAST
-(![`RPS-BLAST`](https://www.ncbi.nlm.nih.gov/Structure/cdd/cdd_help.shtml#RPSBWhat)) or `Mash` (**cite website and paper**). 
+([`RPS-BLAST`](https://www.ncbi.nlm.nih.gov/Structure/cdd/cdd_help.shtml#RPSBWhat)) or `Mash` (**cite website and paper**). 
 
-\*There are several ways to generate a metagenomic assembly; we built the one for our use case with ![SKESA](https://github.com/ncbi/SKESA).
+\*There are several ways to generate a metagenomic assembly; we built the one for our use case with [SKESA](https://github.com/ncbi/SKESA).
 
 **Output**
 
@@ -46,7 +46,7 @@ If using `Mash`, a XXX file will be generated containing the following informati
 * Domain ID
 * Query sequence
 * Estimated distance
-* *P-value*
+* *P*-value
 * Number of sketches in the query found in number of sketches for the domain.
 
 # Initial use case
