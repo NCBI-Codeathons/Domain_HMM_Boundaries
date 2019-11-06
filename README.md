@@ -31,25 +31,13 @@ and also
 (2) **Domain models**, which represent existing domain models - e.g., from CDD, PFAM, POGs/PVOGs, etc., in PSSM format. 
 
 We provide tools for the user to perform **Domain search** using 6-frame translation of Reverse Position-Specific BLAST
-([`RPS-BLAST`](https://www.ncbi.nlm.nih.gov/Structure/cdd/cdd_help.shtml#RPSBWhat)) (sometimes unofficially referred to as "RPS-tBLASTn"), or a non-optimized implementation of ([`Mash`](https://mash.readthedocs.io/en/latest/)).
+([`RPS-BLAST`](https://www.ncbi.nlm.nih.gov/Structure/cdd/cdd_help.shtml#RPSBWhat)) (sometimes unofficially referred to as "RPS-tBLASTn"), or a non-optimized implementation of [`Mash`](https://mash.readthedocs.io/en/latest/).
 
 \*There are several ways to generate a metagenomic assembly; we built the one for our use case with [SKESA](https://github.com/ncbi/SKESA).
 
 **Output**
 
 If using `RPS-BLAST`, a tab delimited file will be generated with added information on the source SRR sample:
-* contig_id
-* CDD
-* pident
-* length
-* mismatch
-* gapopen
-* qstart
-* qend
-* sstart
-* send
-* evalue
-* bitscore
 
 Example table:
 
