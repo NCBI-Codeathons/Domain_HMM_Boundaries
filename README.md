@@ -14,9 +14,7 @@ Potential uses of these results include:
 
 ## Schematic description
 
-![Workflow](https://github.com/NCBI-Codeathons/Domain_HMM_Boundaries/blob/master/workflow_codeathon.png)
-
-[Download PDF file](https://github.com/NCBI-Codeathons/Domain_HMM_Boundaries/blob/master/workflow_codeathon.pdf "Workflow")
+![Workflow](https://github.com/NCBI-Codeathons/Domain_HMM_Boundaries/blob/master/figures/dataflowdiagram.png)
 
 # How to use this pipeline
 
