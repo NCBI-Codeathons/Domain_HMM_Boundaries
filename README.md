@@ -1,5 +1,7 @@
 # Identifying protein domains in metagenomic data
 
+![AwesomeLogo](https://github.com/NCBI-Codeathons/Domain_HMM_Boundaries/blob/master/figures/cddetector.png)
+
 ## We will be cite-able soon! Please check back for updates on the NCBI Virus Discovery codeathon paper submission.
 
 ## Rationale
