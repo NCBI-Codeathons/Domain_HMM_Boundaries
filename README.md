@@ -35,7 +35,7 @@ We provide tools for the user to perform **Domain search** using 6-frame transla
 
 **Output**
 
-If using `RPS-BLAST`, a gff file will be generated containing the following information:
+If using `RPS-BLAST`, a tab delimited file will be generated containing the following information:
 
 * Known domain IDs
 * Contig locations
