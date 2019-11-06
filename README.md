@@ -1,4 +1,4 @@
-# Identifying protein domains in metagenomic data
+# Detecting protein domains in metagenomic data
 
 ![AwesomeLogo](https://github.com/NCBI-Codeathons/Domain_HMM_Boundaries/blob/master/figures/cddetector.png)
 
