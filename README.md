@@ -8,7 +8,7 @@
 
 ## Rationale
 
-Metagenomic data can be difficult to interpret. Which types of bacteria and viruses are present? Are specific sequences present that might be indicative of pathogenicity? One way to address these questions is to assess the **protein domain content** of a metagenome. Our tools allow users to perform a comprehensive annotation of domains within their metagenomic assembly (using 6-frame translation RPS-BLAST), allowing follow-up on specific occurrences of domains of interest. Additionally, we provide an alternative version of our pipeline that we began testing (but did not deploy on our full dataset) that uses MASH on translated reads to perform a more quick & rough scan of the domain content of their metagenomic data.
+Metagenomic data can be difficult to interpret. Which types of bacteria and viruses are present? Are specific sequences present that might be indicative of pathogenicity? One way to address these questions is to assess the protein domain content of a metagenome. Our tools allow users to perform a comprehensive annotation of domains within their metagenomic assembly (using 6-frame translation RPS-BLAST), allowing follow-up on specific occurrences of domains of interest. We also provide a set of domain matches found in metagenomics assemblies, that can be used as a "gold-standard" (or at least a silver one:-) for future experiments. Additionally, we provide an alternative version of our pipeline that we began testing (but did not deploy on our full dataset) that uses MASH on translated reads to perform a more quick & rough scan of the domain content of their metagenomic data.
 
 Potential uses of these results include:
 
