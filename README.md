@@ -22,14 +22,16 @@ Potential uses of these results include:
 
 This pipeline takes the following as inputs: 
 
-(1) **Query sequences**, which should be translated ORFs from contigs of a metagenome assembly*, 
+(1) **Query sequences**, which should be contigs of a metagenome assembly*,
 
 and also 
 
-(2) **Domain models**, which represent existing domain models from CDD, PFAM, POGs/PVOGs, etc., in XXX format.
+(2) **Domain models**, which represent existing domain models from CDD, PFAM, POGs/PVOGs, etc., in PSSM (?) format.
 
-We provide tools for the user to perform **Domain search** is using Reverse Position-Specific BLAST
-(`RPS-BLAST`) or `Mash`. 
+We provide tools for the user to perform **Domain search** using Reverse Position-Specific BLAST
+(![`RPS-BLAST`](https://www.ncbi.nlm.nih.gov/Structure/cdd/cdd_help.shtml#RPSBWhat)) or `Mash` (**cite website and paper**). 
+
+\*There are several ways to generate a metagenomic assembly; we built the one for our use case with ![SKESA](https://github.com/ncbi/SKESA).
 
 **Output**
 
@@ -41,7 +43,11 @@ If using `RPS-BLAST`, a gff file will be generated containing the following info
 
 If using `Mash`, a XXX file will be generated containing the following information:
 
-* XXXX
+* Domain ID
+* Query sequence
+* Estimated distance
+* *P-value*
+* Number of sketches in the query found in number of sketches for the domain.
 
 # Initial use case
 
