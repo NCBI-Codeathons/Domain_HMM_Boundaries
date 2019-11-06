@@ -75,7 +75,7 @@ If using `Mash`, a file will be generated containing the following information:
 
 We used the following data to assess the runtime, scalability, and accuracy of this pipeline:
 
-(1) **Query sequences** are from assembled contigs found in Codeathon1(link). For RPS-BLAST, we used the translated ORFs from all 3,000+ datasets, while for MASH, we only used a subset of 700 of them.
+(1) **Query sequences** are from assembled contigs found in [Codeathon1](https://github.com/NCBI-Hackathons/VirusDiscoveryProject). For RPS-BLAST, we used the translated ORFs from all 3,000+ datasets, while for MASH, we only used a subset of 700 of them.
 
 (2) **Domain models** are from CDD.
 
