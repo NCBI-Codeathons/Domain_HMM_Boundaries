@@ -57,4 +57,4 @@ We used the following data to assess the runtime, scalability, and accuracy of t
 
 (2) **Domain models** are from CDD.
 
-# Parallelization????
+Parallelization is built-into the pipeline in a hard-coded form.
