@@ -4,7 +4,7 @@
 
 ## Rationale
 
-Metagenomic data can be difficult to interpret. Which types of bacteria and viruses are present? Are specific sequences present that might be indicative of pathogenicity? One way to address these questions is to assess the **domain content** of a metagenome. Our tools allow users to perform (1) a quick scan of the domain content of their metagenomic data, and/or (2) a comprehensive annotation of domains within their metagenomic assembly, allowing follow-up on specific occurrences of domains of interest.
+Metagenomic data can be difficult to interpret. Which types of bacteria and viruses are present? Are specific sequences present that might be indicative of pathogenicity? One way to address these questions is to assess the **domain content** of a metagenome. Our tools allow users to perform a comprehensive annotation of domains within their metagenomic assembly (using RPS-tBLASTn), allowing follow-up on specific occurrences of domains of interest. Additionally, we provide an alternative version of our pipeline that we tested (but did not deploy) that uses MASH on translated reads to perform a more quick & rough scan of the domain content of their metagenomic data.
 
 Potential uses of these results include:
 
@@ -24,10 +24,10 @@ This pipeline takes the following as inputs:
 
 and also 
 
-(2) **Domain models**, which represent existing domain models from CDD, PFAM, POGs/PVOGs, etc., in PSSM (?) format.
+(2) **Domain models**, which represent existing domain models - e.g., from CDD, PFAM, POGs/PVOGs, etc., in PSSM format. (Although we only tried models from CDD.)
 
-We provide tools for the user to perform **Domain search** using Reverse Position-Specific BLAST
-([`RPS-BLAST`](https://www.ncbi.nlm.nih.gov/Structure/cdd/cdd_help.shtml#RPSBWhat)) or `Mash` (**cite website and paper**). 
+We provide tools for the user to perform **Domain search** using 6-frame translation Reverse Position-Specific BLAST
+([`RPS-BLAST`](https://www.ncbi.nlm.nih.gov/Structure/cdd/cdd_help.shtml#RPSBWhat)), using  or `Mash` (https://mash.readthedocs.io/en/latest/). 
 
 \*There are several ways to generate a metagenomic assembly; we built the one for our use case with [SKESA](https://github.com/ncbi/SKESA).
 
