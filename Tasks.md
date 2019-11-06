@@ -1,5 +1,21 @@
 # Task distribution for domain searching group
 
+**Day 3**
+
+1. Compare results of RPS-tblastn with those of Mash using different k-mer lengths (Ward)
+
+2. Basic analysis on full output from all ~3000 metagenomes, with or without e-value filtering (Migun)
+
+3. Estimate runtime for HMMer analysis with raw reads to demonstrate potential for scaling or lack thereof (Anderson)
+
+4. Investigate potential use cases with output of domain identification/annotation (Eneida)
+
+5. Run RPS-tblastn with top 5% of contigs by coverage to estimate runtime/scalability and comparability with full dataset (Wynn)
+
+6. Revise github repo README and documentation for end users (Anderson and Wynn)
+
+7. Draft text for paper submission based on repo documentation (Wynn)
+
 **Day 2**
 
 1. converting 950 completed runs to appropriate format for group 1 and index group (Migun, Eneida, Wynn, David)
