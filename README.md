@@ -26,7 +26,7 @@ This pipeline takes the following as inputs:
 
 and also 
 
-(2) **Domain models**, which represent existing domain models - e.g., from CDD, PFAM, POGs/PVOGs, etc. (although we only tried models from CDD), in PSSM format. 
+(2) **Domain models**, which represent existing domain models - e.g., from CDD, PFAM, POGs/PVOGs, etc., in PSSM format. 
 
 We provide tools for the user to perform **Domain search** using 6-frame translation of Reverse Position-Specific BLAST
 ([`RPS-BLAST`](https://www.ncbi.nlm.nih.gov/Structure/cdd/cdd_help.shtml#RPSBWhat)) (sometimes unofficially referred to as "RPS-tBLASTn"), or a non-optimized implementation of ([`Mash`](https://mash.readthedocs.io/en/latest/)).
@@ -41,7 +41,7 @@ If using `RPS-BLAST`, a gff file will be generated containing the following info
 * Contig locations
 * Alignment scores
 
-If using `Mash`, a XXX file will be generated containing the following information:
+If using `Mash`, a file will be generated containing the following information:
 
 * Domain ID
 * Query sequence
@@ -57,4 +57,4 @@ We used the following data to assess the runtime, scalability, and accuracy of t
 
 (2) **Domain models** are from CDD.
 
-Parallelization is built-into the pipeline in a hard-coded form.
+Parallelization is built into the pipeline in a hard-coded form. We initially parallelized across 64 nodes on 10 cloud instances.
