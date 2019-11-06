@@ -3,7 +3,7 @@
 ### scripts
     This folder contains scripts to concatenate rpstblastn results and reformat it to formats as per the need of indexing and taxonomy team.
 
-### data
+### shared_data
     This folder contains data (tables generated using the python script in scripts) from the results.
 
 ### jupyter_notebook
