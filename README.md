@@ -10,11 +10,11 @@ Potential uses of these results include:
 
 * Filtering your metagenome to just the contigs that contain a particular virus of interest
 * Summarizing the gene/protein content of your metagenome
-* Estimating taxonomy from domains or mapping your metagenome's domains onto known taxonomy (for more details see the ![Taxonomy Domain Integration repo](https://github.com/NCBI-Codeathons/Taxonomy_Domain_Integration))
+* Estimating taxonomy from domains or mapping your metagenome's domains onto known taxonomy (for more details see the [Taxonomy Domain Integration repo](https://github.com/NCBI-Codeathons/Taxonomy_Domain_Integration))
 
 ## Schematic description
 
-[Workflow](https://github.com/NCBI-Codeathons/Domain_HMM_Boundaries/blob/master/workflow_codeathon.png)
+![Workflow](https://github.com/NCBI-Codeathons/Domain_HMM_Boundaries/blob/master/workflow_codeathon.png)
 
 [Download PDF file](https://github.com/NCBI-Codeathons/Domain_HMM_Boundaries/blob/master/workflow_codeathon.pdf "Workflow")
 
