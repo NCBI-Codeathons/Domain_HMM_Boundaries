@@ -1,8 +1,6 @@
 # Detecting protein domains in metagenomic data
 
 ![AwesomeLogo](https://github.com/NCBI-Codeathons/Domain_HMM_Boundaries/blob/master/figures/cddetector.png)
-![AwesomeLogo](https://github.com/NCBI-Codeathons/Domain_HMM_Boundaries/blob/master/figures/pipelinehits.png)
-![AwesomeLogo](https://github.com/NCBI-Codeathons/Domain_HMM_Boundaries/blob/master/figures/wordcloud.png)
 
 ## We will be cite-able soon! Please check back for updates on the NCBI Virus Discovery codeathon paper submission.
 
@@ -68,3 +66,8 @@ We used the following data to assess the runtime, scalability, and accuracy of t
 (2) **Domain models** are from CDD.
 
 Parallelization is built into the pipeline in a hard-coded form. We initially parallelized across 64 nodes on 10 cloud instances.
+
+# Example outputs
+![AwesomeLogo](https://github.com/NCBI-Codeathons/Domain_HMM_Boundaries/blob/master/figures/pipelinehits.png)
+![AwesomeLogo](https://github.com/NCBI-Codeathons/Domain_HMM_Boundaries/blob/master/figures/wordcloud.png)
+
